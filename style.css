@@ -1,0 +1,77 @@
+body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa; /* Fondo suave en gris pastel */
+        }
+        header {
+            background: #d6a0a8; /* Color pastel suave para el fondo */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        header img {
+            max-width: 100px;
+            height: auto;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 300;
+            color: #fff;
+        }
+        nav {
+            margin-top: 15px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #f8b4b4; /* Color pastel rosa claro para el hover */
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: #ffffff; /* Fondo blanco para el contenido */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        h2 {
+            color: #d6a0a8; /* Tono pastel para los encabezados */
+            border-bottom: 2px solid #f8b4b4; /* Línea inferior rosa pastel */
+            padding-bottom: 5px;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .tags {
+            margin-top: 20px;
+            font-style: italic;
+            color: #aab7b8; /* Color gris pastel para las etiquetas */
+        }
+        footer {
+            background: #d6a0a8; /* Misma tonalidad pastel que el header */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+        }
